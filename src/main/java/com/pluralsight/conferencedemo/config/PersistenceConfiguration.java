@@ -8,6 +8,7 @@ import org.springframework.context.annotation.Primary;
 
 import javax.sql.DataSource;
 
+
 @ConfigurationProperties(prefix = "spring.datasource")
 public class PersistenceConfiguration {
     @Bean
